@@ -93,7 +93,7 @@ class EnhancedSarcasmDetector:
 
     def prepare_data(self, data_path):
         logger.info("Loading and preparing data...")
-        df = pd.read_csv(C:/Users/KIIT/.vscode/AD_LAB_PROJECT/GEN-sarc-notsarc.csv"
+        df = pd.read_csv("Placement_projects\GEN-sar-notsarc.csv"
         )
         
         df['processed_text'] = df['text'].apply(self.preprocess_text)
